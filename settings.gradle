@@ -1,0 +1,2 @@
+rootProject.name = "PhotoSortingSystem"
+include ':app'

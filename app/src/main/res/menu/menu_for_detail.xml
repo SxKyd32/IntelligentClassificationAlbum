@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PhotoDetailActivity"
+
+    >
+
+
+    <!--<item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/tab_delete"
+        app:showAsAction="always"
+        android:title="删除"/>-->
+
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/scan"
+        app:showAsAction="always"
+        android:title="扫描" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/about"
+        app:showAsAction="always"
+        android:title="关于"/>
+
+
+
+
+</menu>

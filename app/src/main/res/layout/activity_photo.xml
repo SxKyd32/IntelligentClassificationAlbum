@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--照片展示区-->
+    <ImageView
+        android:id="@+id/iv_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+
+    <!--点击扫描图标会在此处输出照片信息-->
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_library"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/photos" />
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/save" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/camera1" />
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/scan" />
+
+        <Button
+            android:id="@+id/btn_compare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/compare1" />
+    </LinearLayout>
+
+</LinearLayout>
